@@ -1,0 +1,14 @@
+.gradle/
+**/build/
+.kotlin/
+local.properties
+.idea/
+*.iml
+.DS_Store
+# Deployed agent skills; only the lockfile is tracked (see AGENTS.md).
+.agents/vendor/
+.agents/skills/
+.agents/commands/
+.agents/agents/
+.claude/*
+!.claude/settings.json

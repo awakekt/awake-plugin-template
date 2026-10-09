@@ -16,4 +16,7 @@ git clone https://github.com/awakekt/awake-agent-skills .agents/vendor/awake-age
 python3 .agents/vendor/awake-agent-skills-bootstrap/scripts/install_consumer.py --project .
 ```
 
+It needs Python 3.11 or newer; on Windows, where `python3` is often the Microsoft Store placeholder,
+run it with `py -3`.
+
 Never edit the deployed copies under `.agents/` or `.claude/`.

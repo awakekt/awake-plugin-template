@@ -1,7 +1,7 @@
 [versions]
 kotlin = "2.4.20"
 # Awake Core release the plugin compiles against. Its editor contract is the only API a plugin uses.
-awake = "0.63.0"
+awake = "0.64.0"
 
 [libraries]
 awake-editor-contract = { module = "com.awakekt.awake.editor:contract", version.ref = "awake" }
